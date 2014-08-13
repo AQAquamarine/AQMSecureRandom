@@ -1,3 +1,3 @@
 language: objective-c
-xcode_workspace: SecureRandom.xcodeproj
+xcode_workspace: SecureRandom.xcworkspace
 xcode_scheme: SecureRandomTests
