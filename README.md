@@ -14,7 +14,7 @@ AQMSecureRandom
 ```
 
 ```objc
-[AQMSecureRandom uuid]
+[AQMSecureRandom uuid];
 // => cd345300-27ba-4a7b-b466-28b3250f53d3
 ```
 
