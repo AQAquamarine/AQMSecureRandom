@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: SecureRandom.xcodeproj
+xcode_scheme: SecureRandomTests
