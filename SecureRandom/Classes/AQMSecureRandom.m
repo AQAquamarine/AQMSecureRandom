@@ -10,6 +10,10 @@
     return random;
 }
 
++ (NSString *)uuid {
+    return [[[NSUUID UUID] UUIDString] lowercaseString];
+}
+
 + (NSString *)randomChar{
     NSUInteger r = arc4random_uniform([self characters].count);
     return [self characters][r];
