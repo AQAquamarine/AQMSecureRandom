@@ -9,7 +9,7 @@ SecureRandom
 ```
 
 ```objc
-[AQMSecureRandom:32];
+[AQMSecureRandom randomString:32];
 // => a6ry0vzy3yzqzmnzsi3u5xvrobzhn2ssd
 ```
 
