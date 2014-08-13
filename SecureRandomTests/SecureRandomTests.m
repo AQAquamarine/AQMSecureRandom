@@ -1,34 +1,17 @@
-//
-//  SecureRandomTests.m
-//  SecureRandomTests
-//
-//  Created by kaiinui on 2014/08/13.
-//  Copyright (c) 2014年 Aquamarine. All rights reserved.
-//
+#import <Specta.h>
+#define EXP_SHORTHAND
+#import <Expecta.h>
 
-#import <XCTest/XCTest.h>
+#import "AQMSecureRandom.h"
 
-@interface SecureRandomTests : XCTestCase
+SpecBegin(AQMSecureRandom)
 
-@end
+describe(@"AQMSecureRandom", ^{
+    describe(@"+generate:length;", ^{
+        it(@"generates some string", ^{
+            expect([AQMSecureRandom randomString:100]).to.beTruthy;
+        });
+    });
+});
 
-@implementation SecureRandomTests
-
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
-@end
+SpecEnd

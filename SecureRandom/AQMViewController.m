@@ -7,6 +7,7 @@
 //
 
 #import "AQMViewController.h"
+#import "Classes/AQMSecureRandom.h"
 
 @interface AQMViewController ()
 
