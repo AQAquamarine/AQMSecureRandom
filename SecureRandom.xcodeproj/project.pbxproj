@@ -24,6 +24,7 @@
 		D476B028199B062300E61C7C /* SecureRandomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D476B027199B062300E61C7C /* SecureRandomTests.m */; };
 		D476B032199B065300E61C7C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D476B031199B065300E61C7C /* Podfile */; };
 		D476B036199B073F00E61C7C /* AQMSecureRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = D476B035199B073F00E61C7C /* AQMSecureRandom.m */; };
+		D476B038199B0FBF00E61C7C /* AQMSecureRandom.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D476B037199B0FBF00E61C7C /* AQMSecureRandom.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +59,10 @@
 		D476B023199B062300E61C7C /* SecureRandomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureRandomTests-Info.plist"; sourceTree = "<group>"; };
 		D476B025199B062300E61C7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D476B027199B062300E61C7C /* SecureRandomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureRandomTests.m; sourceTree = "<group>"; };
-		D476B031199B065300E61C7C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D476B031199B065300E61C7C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D476B034199B073F00E61C7C /* AQMSecureRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQMSecureRandom.h; sourceTree = "<group>"; };
 		D476B035199B073F00E61C7C /* AQMSecureRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQMSecureRandom.m; sourceTree = "<group>"; };
+		D476B037199B0FBF00E61C7C /* AQMSecureRandom.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AQMSecureRandom.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				D476B031199B065300E61C7C /* Podfile */,
+				D476B037199B0FBF00E61C7C /* AQMSecureRandom.podspec */,
 				D476B002199B062300E61C7C /* SecureRandom */,
 				D476B021199B062300E61C7C /* SecureRandomTests */,
 				D476AFFB199B062300E61C7C /* Frameworks */,
@@ -256,6 +259,7 @@
 				D476B015199B062300E61C7C /* Images.xcassets in Resources */,
 				D476B007199B062300E61C7C /* InfoPlist.strings in Resources */,
 				D476B032199B065300E61C7C /* Podfile in Resources */,
+				D476B038199B0FBF00E61C7C /* AQMSecureRandom.podspec in Resources */,
 				D476B010199B062300E61C7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
