@@ -4,7 +4,7 @@
 
 + (NSString *)randomString:(int)length {
     NSMutableString *random = [[NSMutableString alloc] initWithString:@""];
-    for (int i=0; i<=length; i++) {
+    for (int i=0; i<length; i++) {
         [random appendString:[self randomChar]];
     }
     return random;

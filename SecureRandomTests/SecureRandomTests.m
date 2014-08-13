@@ -8,8 +8,8 @@ SpecBegin(AQMSecureRandom)
 
 describe(@"AQMSecureRandom", ^{
     describe(@"+generate:length;", ^{
-        it(@"generates some string", ^{
-            expect([AQMSecureRandom randomString:100]).to.beTruthy;
+        it(@"generates 100 length string", ^{
+            expect([AQMSecureRandom randomString:100].length).to.equal(100);
         });
     });
 });
