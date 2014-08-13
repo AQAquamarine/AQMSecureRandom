@@ -1,7 +1,7 @@
 AQMSecureRandom
 ===============
 
-SecureRandom
+![](http://img.shields.io/cocoapods/v/AQMSecureRandom.svg?style=flat)
 
 ```objc
 + (NSString *)randomString:(int)length;
