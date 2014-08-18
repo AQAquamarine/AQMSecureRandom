@@ -1,7 +1,9 @@
-AQMSecureRandom
+SecureRandom
 ===============
 
 ![](http://img.shields.io/cocoapods/v/AQMSecureRandom.svg?style=flat)
+
+SecureRandom implementation for iOS.
 
 ```objc
 + (NSString *)randomString:(int)length;
